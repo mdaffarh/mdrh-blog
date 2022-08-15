@@ -114,13 +114,14 @@ class AdminCategoryController extends Controller
         if($category->oldImage){
             Storage::delete($category->oldImage);
         }
-        Category::destroy($category->id);
-        return redirect('/dashboard/categories')->with('deleted','Category has been deleted');
+        
     }
 
     public function checkSlug(Request $request)
     {
         $slug = SlugService::createSlug(Category::class, 'slug', $request->category);
         return response()->json(['slug' => $slug]);
+        adgwiudgaiuwdgiuawgdiawdg
+        uawdgiouagwidgawdigawde
     }
 }
