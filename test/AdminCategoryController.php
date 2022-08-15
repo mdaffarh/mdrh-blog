@@ -115,7 +115,7 @@ class AdminCategoryController extends Controller
             Storage::delete($category->oldImage);
         }
         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        uawdgiouagwidgawdigawde
     }
 
     public function checkSlug(Request $request)
