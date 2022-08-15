@@ -114,6 +114,8 @@ class AdminCategoryController extends Controller
         if($category->oldImage){
             Storage::delete($category->oldImage);
         }
+        adgwiudgaiuwdgiuawgdiawdg
+        uawdgiouagwidgawdigawde
         
     }
 
@@ -121,7 +123,5 @@ class AdminCategoryController extends Controller
     {
         $slug = SlugService::createSlug(Category::class, 'slug', $request->category);
         return response()->json(['slug' => $slug]);
-        adgwiudgaiuwdgiuawgdiawdg
-        uawdgiouagwidgawdigawde
     }
 }
