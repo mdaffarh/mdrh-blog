@@ -114,7 +114,7 @@ class AdminCategoryController extends Controller
         if($category->oldImage){
             Storage::delete($category->oldImage);
         }
-        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        ddddddddddddddddddddddddddddd
         uawdgiouagwidgawdigawde
     }
 
